@@ -175,8 +175,8 @@
 
 .header-carousel .owl-dots {
     position: absolute;
-    width: 60px;
-    height: 100%;
+    width: 0px;
+    height: 0%;
     top: 0;
     right: 30px;
     display: flex;
@@ -187,8 +187,8 @@
 
 .header-carousel .owl-dots .owl-dot {
     position: relative;
-    width: 45px;
-    height: 45px;
+    width: 0px;
+    height: 0px;
     margin: 5px 0;
     background: #FFFFFF;
     box-shadow: 0 0 30px rgba(255, 255, 255, .9);
@@ -197,14 +197,14 @@
 }
 
 .header-carousel .owl-dots .owl-dot.active {
-    width: 60px;
-    height: 60px;
+    width: 0px;
+    height: 0px;
 }
 
 .header-carousel .owl-dots .owl-dot img {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 0%;
+    height: 0%;
     object-fit: cover;
     padding: 2px;
     border-radius: 45px;
